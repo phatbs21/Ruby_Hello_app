@@ -23,3 +23,6 @@ group :test do
   gem "webdrivers", "5.0.0"
 end
 gem "concurrent-ruby", "= 1.3.4"
+group :production do
+  gem "pg", "1.3.5"
+end
